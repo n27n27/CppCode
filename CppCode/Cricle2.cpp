@@ -10,10 +10,10 @@ struct C2dType {
 };
 
 class CircleClass {
-	Cd2Type center;
+	C2dType center;
 	double radius;
 public:
-	void intit(double cx, double cy, double r) {
+	void init(double cx, double cy, double r) {
 		center.x = cx;
 		center.y = cy;
 		radius = r;
