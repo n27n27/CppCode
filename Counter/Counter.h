@@ -5,8 +5,7 @@ class Counter {
 	int value;
 
 public:
-	Counter()
-		{ value = 0;}
+	Counter() : value{0} {}
 	void reset()
 		{ value = 0;}
 	void count()
